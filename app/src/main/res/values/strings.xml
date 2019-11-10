@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IS1DAPP</string>
+    <string name="title_activity_user_login">UserLogin</string>
+</resources>

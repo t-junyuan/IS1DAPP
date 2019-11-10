@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Login"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/chooselogin"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/chooselogin"
+        android:text="Delivery"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:text="User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button1"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random Images"
+        android:layout_above="@id/chooselogin"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/charaImage"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/chooselogin"
+        android:layout_width="334dp"
+        android:layout_height="215dp"
+        android:src="@drawable/bulbasaur" />
+
+    <Button
+        android:id="@+id/charaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Randomise image"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/image"
+        />
+
+</RelativeLayout>
